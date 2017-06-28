@@ -6,6 +6,8 @@
 #include <wait.h>
 #include <unistd.h>
 
+/* This small code simulate the server which serves client request by create process each time it noticed the request */
+
 int main(){
 	int server_socket, client_socket;
 	char buf[4];
